@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.57.2"),
+        .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.58.4"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealSentryAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealSentryAdapter/8.57.2.2/865b343d22f3/AppodealSentryAdapter.xcframework.zip",
-            checksum: "865b343d22f3cca1fae0b7d46d693bcdf69702f545557f3b291e29ac1c7bc317"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealSentryAdapter/8.58.4.0/cb39ce6b8b06/AppodealSentryAdapter.xcframework.zip",
+            checksum: "cb39ce6b8b067452973400d01a8bb583ab9c7dfe1ffec51b0687b31a3a3b81d5"
         ),
 
     ]
